@@ -42,6 +42,8 @@ Dans le cadre de ce projet, nous avons voulu rendre l'interaction le jeu de donn
 1. L'année d'étude
 2. Le type de données à étudier
 3. L'échelle de l'étude
+
+   
 Pour l'année, nous donnons le choix entre les valeurs suivantes: 2019,2020,2021,2022.
 Pour le type de données, nous donnons le choix entre les valeurs suivantes: Nombre d'impôt payé, Coût des impôts, Assets des impôts.
 Pour l'échelle, nous donnons le choix entre les valeurs suivantes: Commune, Département, Région.
