@@ -9,9 +9,12 @@ Python est un des langages de programmation les plus répandus dans le monde. No
 
 ## 2- La base de données
 
-Pour notre projet nous avons dû d'abord choisir un dataset avec lequel il nous fallait travailler, nous avons choisi un dataset issu du site web Kaggle. [!Data](https://www.kaggle.com/datasets/santiagopatioserna/5-year-french-wealth-analysis),
-La source de ce dataset est : [!Source](https://www.data.gouv.fr/fr/datasets/impot-de-solidarite-sur-la-fortune-impot-sur-la-fortune-immobiliere-par-collectivite-territoriale/) soit un site du gouvernement français.
-Notre dataset comporte 9 colonnes distinctes qui sont : Year, Commune_code_INSEE, number_of_taxpayers, City, Average_Assets_in_Euro, Average_Tax_in_Euro, source_file, Department, Region. Ce dataset présente différentes informations fiscales des habitants en fonction des différents endroits.
+Pour notre projet nous avons dû d'abord choisir un dataset avec lequel il nous fallait travailler, nous avons choisi un dataset issu du site web Kaggle. [Data](https://www.kaggle.com/datasets/santiagopatioserna/5-year-french-wealth-analysis),
+La source de ce dataset est : [Source](https://www.data.gouv.fr/fr/datasets/impot-de-solidarite-sur-la-fortune-impot-sur-la-fortune-immobiliere-par-collectivite-territoriale/) soit un site du gouvernement français.
+Notre dataset comporte 9 colonnes distinctes qui sont : Year, Commune_code_INSEE, number_of_taxpayers, City, Average_Assets_in_Euro, Average_Tax_in_Euro, source_file, Department, Region. Ce dataset présente différentes informations fiscales des habitants en fonction des différents endroits. Pour les fichiers GeoJsons, nous avons pris 3 fichiers représentant chacun une échelle différente: 
+1. [Région](https://france-geojson.gregoiredavid.fr/)
+2. [Département](https://france-geojson.gregoiredavid.fr/)
+3. [Commune]
 
 ## 3- Les librairies
 
