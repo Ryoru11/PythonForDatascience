@@ -1,24 +1,10 @@
 import folium
 import geopandas
-import pandas as pd
-import plotly.express as px
 from unidecode import unidecode
+from urllib import request
 
-def create_map(frontiere):
-  #Creation des frontières communales
-
-  #Mise au point de la résolution et du centre de la carte
-  coords = (46.8398094,2.5840685)
-  map = folium.Map(location=coords, tiles='OpenStreetMap', zoom_start=4)
-
-  france = frontiere
-  #Dessin des frontières sur la carte
-  sf = lambda x :{'fillColor':'#E88300', 'fillOpacity':0, 'color':'#E84000', 'weight':0.5, 'opacity':0.5}
-  folium.GeoJson( data = france, name ="The World", style_function =sf).add_to(map)
-  #Sauvegarde de la carte dans map.html
-  map.save(outfile='mapcom.html')
-
-  return map
+URL = "https://bpce.opendatasoft.com/api/explore/v2.1/catalog/datasets/iris-millesime-france/exports/geojson?lang=fr&timezone=Europe%2FBerlin"
+response = request.urlretrieve(URL, "iris-millesime-france.geojson")
 #######################################
 def create_frontiere_commune():
   print("Frontiere in progress")
