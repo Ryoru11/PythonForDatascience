@@ -19,15 +19,15 @@ Notre dataset comporte 9 colonnes distinctes qui sont : Year, Commune_code_INSEE
 ## 3- Les librairies
 
 Pour le développement de ce projet, nous avons utilisé les librairies suivantes:
-'$ python -m pip -r install pipwin'
-'$ python -m pip -r install gdal'
-'$ python -m pip -r install fiona'
-'$ python -m pip -r install pandas'
-'$ python -m pip -r install unidecode'
-'$ python -m pip -r install geopandas'
-'$ python -m pip -r install datapackage'
-'$ python -m pip -r install dash'
-'$ python -m pip -r install plotly.express'
+- '$ python -m pip -r install pipwin'
+- '$ python -m pip -r install gdal'
+- '$ python -m pip -r install fiona'
+- '$ python -m pip -r install pandas'
+- '$ python -m pip -r install unidecode'
+- '$ python -m pip -r install geopandas'
+- '$ python -m pip -r install datapackage'
+- '$ python -m pip -r install dash'
+- '$ python -m pip -r install plotly.express'
 
 ## 4- Présentation du site
 
