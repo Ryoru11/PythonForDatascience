@@ -72,4 +72,5 @@ Le code de notre projet est divisé en 4 parties différentes:
 
   ## 1- conception_carte.py
 
-  Le fichier 'conception_carte
+  Le fichier 'conception_carte contient le code permettant de réaliser une carte de la France sur plusieurs échelles.
+  
