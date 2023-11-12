@@ -89,6 +89,7 @@ Le code de notre projet est divisé en 4 parties différentes:
 - gestion_database.py
 - dashboard.py
 - main.py
+  
 (Si vous êtes intéressé par l'hitorique de tout le programme, le lien est [ici](https://github.com/Ryoru11/PythonForDatascience/tree/main/Ancien))
   ## 1- conception_carte.py
 
